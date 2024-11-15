@@ -22,8 +22,6 @@ for char in range(1, nr_symbols+ 1):
 
 for char in range(1, nr_symbols+ 1):
     password.append(random.choice(numbers))
-
-
 random.shuffle(password)
 
 final_pass = ""
